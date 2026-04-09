@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    margin-left: 100px;
+    margin-left: 1500px;
     color: rgba(207, 44, 47);
     margin-top: 30px;
     font-size: 50px;
@@ -23,4 +23,15 @@ input, select {
     border: 1px solid #ccc;
     border-radius: 6px;
     box-sizing: border-box;
+}
+
+form {
+    background-color: rgb(172, 42, 60);
+    width: 350px;
+
+    margin-top: 150px;
+    margin-left: 1500px;
+
+    padding: 25px;
+    border-radius: 12px;
 }
