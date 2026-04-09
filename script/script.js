@@ -34,4 +34,14 @@ formulario.addEventListener("submit", function (evento) {
         mensagem.innerText = "Peso mínimo é 50kg";
         return;
     }
+
+     if (tipoSanguineo === "") {
+        mensagem.innerText = "Selecione um tipo sanguíneo";
+        return;
+    }
+
+    if (!nome || !email || !idade || !peso || !telefone || !cidade || !estado) {
+        mensagem.innerText = "Preencha todos os campos";
+        return;
+    }
 });
