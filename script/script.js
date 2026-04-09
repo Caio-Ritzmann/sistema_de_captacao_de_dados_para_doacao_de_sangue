@@ -15,5 +15,23 @@ formulario.addEventListener("submit", function (evento) {
     let cidade = document.getElementById("cidade").value;
     let estado = document.getElementById("estado").value;
 
+    if (!nome.includes(" ")) {
+        mensagem.innerText = "Digite nome e sobrenome";
+        return;
+    }
 
+    if (!email.includes("@") || !email.includes(".")) {
+        mensagem.innerText = "Email inválido";
+        return;
+    }
+
+    if (idade < 16) {
+        mensagem.innerText = "Idade mínima é 16";
+        return;
+    }
+
+    if (peso < 50) {
+        mensagem.innerText = "Peso mínimo é 50kg";
+        return;
+    }
 });
