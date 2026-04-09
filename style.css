@@ -43,3 +43,12 @@ nav{
     margin-left: 60%;
     align-items: center;
 }
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(172, 42, 60);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
